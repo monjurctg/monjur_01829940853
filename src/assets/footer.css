@@ -23,6 +23,10 @@ footer{
 .career p{
     color: #8c94b8;
     margin-bottom: 20px;
+    width: 60%;
+    text-align: start;
+    margin: 0 auto;
+
 }
 
 .career,.privacy-policy ,.support{
@@ -80,6 +84,10 @@ footer{
 
 
 @media screen and (max-width:776px) {
+    .copywrite-container{
+        flex-direction: column !important;
+      gap: 20px;
+    }
     .privacy-policy >h4{
         line-height: 2 !important;
     }
@@ -90,5 +98,5 @@ footer{
     .career,.privacy-policy ,.support{
         flex: none;
 
-        }
+    }
 }

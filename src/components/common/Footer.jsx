@@ -50,7 +50,7 @@ function Footer() {
       <hr />
      
        <div className="container">
-       <div className="d-flex flex-wrap justify-content-between align-items-center">
+       <div className="d-flex copywrite-container flex-wrap justify-content-between align-items-center">
        <div className="copy">© 2023 Newsletter E-mail Service: All Copy right reserved</div>
         <div className="d-flex footer-right " style={{gap:"20px"}}>
             <a href="">Terms</a>
